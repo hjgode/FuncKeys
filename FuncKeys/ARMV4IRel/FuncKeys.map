@@ -1,0 +1,341 @@
+ FuncKeys
+
+ Timestamp is 4a0be43f (Thu May 14 11:28:31 2009)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001a00H .text                   CODE
+ 0002:00000000 00000248H .rdata                  DATA
+ 0002:00000248 0000004cH .rdata$debug            DATA
+ 0002:00000294 00000014H .xdata                  DATA
+ 0002:000002a8 00000028H .idata$2                DATA
+ 0002:000002d0 00000014H .idata$3                DATA
+ 0002:000002e4 000001acH .idata$4                DATA
+ 0002:00000490 0000006aH .idata$6                DATA
+ 0002:000004fa 00000000H .edata                  DATA
+ 0003:00000000 000001acH .idata$5                DATA
+ 0003:000001ac 00000004H .CRT$XCA                DATA
+ 0003:000001b0 00000004H .CRT$XCL                DATA
+ 0003:000001b4 00000004H .CRT$XCU                DATA
+ 0003:000001b8 00000004H .CRT$XCZ                DATA
+ 0003:000001bc 00000004H .CRT$XIA                DATA
+ 0003:000001c0 00000004H .CRT$XIZ                DATA
+ 0003:000001c4 00000004H .CRT$XPA                DATA
+ 0003:000001c8 00000004H .CRT$XPZ                DATA
+ 0003:000001cc 00000004H .CRT$XTA                DATA
+ 0003:000001d0 00000004H .CRT$XTZ                DATA
+ 0003:000001d8 000001deH .data                   DATA
+ 0003:000003b8 000000d5H .bss                    DATA
+ 0004:00000000 000001a8H .pdata                  DATA
+ 0005:00000000 00000160H .rsrc$01                DATA
+ 0005:00000160 000009c8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       ?_GetBaseMessageMap@CFuncKeysApp@@KAPBUAFX_MSGMAP@@XZ 00011000 f   FuncKeys.obj
+ 0001:00000020       ?GetMessageMap@CFuncKeysApp@@MBAPBUAFX_MSGMAP@@XZ 00011020 f   FuncKeys.obj
+ 0001:00000048       ??0CFuncKeysApp@@QAA@XZ    00011048 f   FuncKeys.obj
+ 0001:000000d8       ?InitInstance@CFuncKeysApp@@UAAHXZ 000110d8 f   FuncKeys.obj
+ 0001:0000013c       ??_GCFuncKeysApp@@UAAPAXI@Z 0001113c f i FuncKeys.obj
+ 0001:0000013c       ??_ECFuncKeysApp@@UAAPAXI@Z 0001113c f i FuncKeys.obj
+ 0001:0000017c       ??1CFuncKeysApp@@UAA@XZ    0001117c f i FuncKeys.obj
+ 0001:00000194       ??1CFuncKeysDlg@@UAA@XZ    00011194 f i FuncKeys.obj
+ 0001:000001ac       ?Serialize@CObject@@UAAXAAVCArchive@@@Z 000111ac f i FuncKeys.obj
+ 0001:000001bc       ??3CObject@@SAXPAX@Z       000111bc f i FuncKeys.obj
+ 0001:000001d4       ?AssertValid@CObject@@UBAXXZ 000111d4 f i FuncKeys.obj
+ 0001:000001e4       ?Dump@CObject@@UBAXAAVCDumpContext@@@Z 000111e4 f i FuncKeys.obj
+ 0001:000001f4       ?loadFuncs@@YAHXZ          000111f4 f   FuncKeysDlg.obj
+ 0001:0000031c       ?regKey@@YAHPAUHWND__@@K@Z 0001131c f   FuncKeysDlg.obj
+ 0001:00000414       ?unRegKey@@YAHK@Z          00011414 f   FuncKeysDlg.obj
+ 0001:000004b8       ?unRegKeys@@YAHXZ          000114b8 f   FuncKeysDlg.obj
+ 0001:00000564       ?regHotKeys@@YAHPAUHWND__@@@Z 00011564 f   FuncKeysDlg.obj
+ 0001:0000063c       ?readReg@@YAHPAEPAK@Z      0001163c f   FuncKeysDlg.obj
+ 0001:000007bc       ?writeReg@@YAHPAEH@Z       000117bc f   FuncKeysDlg.obj
+ 0001:0000092c       ??0CFuncKeysDlg@@QAA@PAVCWnd@@@Z 0001192c f   FuncKeysDlg.obj
+ 0001:000009d4       ??_ECFuncKeysDlg@@UAAPAXI@Z 000119d4 f i FuncKeysDlg.obj
+ 0001:000009d4       ??_GCFuncKeysDlg@@UAAPAXI@Z 000119d4 f i FuncKeysDlg.obj
+ 0001:00000a14       ?DoDataExchange@CFuncKeysDlg@@MAAXPAVCDataExchange@@@Z 00011a14 f   FuncKeysDlg.obj
+ 0001:00000a24       ?_GetBaseMessageMap@CFuncKeysDlg@@KAPBUAFX_MSGMAP@@XZ 00011a24 f   FuncKeysDlg.obj
+ 0001:00000a44       ?GetMessageMap@CFuncKeysDlg@@MBAPBUAFX_MSGMAP@@XZ 00011a44 f   FuncKeysDlg.obj
+ 0001:00000a60       ?OnInitDialog@CFuncKeysDlg@@MAAHXZ 00011a60 f   FuncKeysDlg.obj
+ 0001:00000b4c       ?updateUI@CFuncKeysDlg@@QAAXXZ 00011b4c f   FuncKeysDlg.obj
+ 0001:00000cac       ?OnBtntest@CFuncKeysDlg@@IAAXXZ 00011cac f   FuncKeysDlg.obj
+ 0001:00000cc4       ?OnBtnclose@CFuncKeysDlg@@IAAXXZ 00011cc4 f   FuncKeysDlg.obj
+ 0001:00000cd4       ?OnBtnsave@CFuncKeysDlg@@IAAXXZ 00011cd4 f   FuncKeysDlg.obj
+ 0001:00000e00       ?wce_GetDesktopWindow@@YAPAUHWND__@@XZ 00011e00 f i FuncKeysDlg.obj
+ 0001:00000e18       ?OnBtnapply@CFuncKeysDlg@@IAAXXZ 00011e18 f   FuncKeysDlg.obj
+ 0001:00000ed0       ?OnBtnhelp@CFuncKeysDlg@@IAAXXZ 00011ed0 f   FuncKeysDlg.obj
+ 0001:00000f48       ?BeginModalState@CWnd@@UAAXXZ 00011f48 f i FuncKeysDlg.obj
+ 0001:00000f68       ?EndModalState@CWnd@@UAAXXZ 00011f68 f i FuncKeysDlg.obj
+ 0001:00000f88       ?WinHelp@CWinApp@@UAAXKI@Z 00011f88 f   MFCCE400:mfcce400.dll
+ 0001:00000f98       ?OnDDECommand@CWinApp@@UAAHPAG@Z 00011f98 f   MFCCE400:mfcce400.dll
+ 0001:00000fa8       ?DoWaitCursor@CWinApp@@UAAXH@Z 00011fa8 f   MFCCE400:mfcce400.dll
+ 0001:00000fb8       ?DoMessageBox@CWinApp@@UAAHPBGII@Z 00011fb8 f   MFCCE400:mfcce400.dll
+ 0001:00000fc8       ?SaveAllModified@CWinApp@@UAAHXZ 00011fc8 f   MFCCE400:mfcce400.dll
+ 0001:00000fd8       ?InitApplication@CWinApp@@UAAHXZ 00011fd8 f   MFCCE400:mfcce400.dll
+ 0001:00000fe8       ?AddToRecentFileList@CWinApp@@UAAXPBG@Z 00011fe8 f   MFCCE400:mfcce400.dll
+ 0001:00000ff8       ?OpenDocumentFile@CWinApp@@UAAPAVCDocument@@PBG@Z 00011ff8 f   MFCCE400:mfcce400.dll
+ 0001:00001008       ?Delete@CWinThread@@UAAXXZ 00012008 f   MFCCE400:mfcce400.dll
+ 0001:00001018       ?GetMainWnd@CWinThread@@UAAPAVCWnd@@XZ 00012018 f   MFCCE400:mfcce400.dll
+ 0001:00001028       ?ProcessWndProcException@CWinApp@@UAAJPAVCException@@PBUtagMSG@@@Z 00012028 f   MFCCE400:mfcce400.dll
+ 0001:00001038       ?ExitInstance@CWinApp@@UAAHXZ 00012038 f   MFCCE400:mfcce400.dll
+ 0001:00001048       ?IsIdleMessage@CWinThread@@UAAHPAUtagMSG@@@Z 00012048 f   MFCCE400:mfcce400.dll
+ 0001:00001058       ?OnIdle@CWinApp@@UAAHJ@Z   00012058 f   MFCCE400:mfcce400.dll
+ 0001:00001068       ?PumpMessage@CWinThread@@UAAHXZ 00012068 f   MFCCE400:mfcce400.dll
+ 0001:00001078       ?PreTranslateMessage@CWinThread@@UAAHPAUtagMSG@@@Z 00012078 f   MFCCE400:mfcce400.dll
+ 0001:00001088       ?Run@CWinApp@@UAAHXZ       00012088 f   MFCCE400:mfcce400.dll
+ 0001:00001098       ?GetConnectionHook@CCmdTarget@@MAAPAUIConnectionPoint@@ABU_GUID@@@Z 00012098 f   MFCCE400:mfcce400.dll
+ 0001:000010a8       ?GetExtraConnectionPoints@CCmdTarget@@MAAHPAVCPtrArray@@@Z 000120a8 f   MFCCE400:mfcce400.dll
+ 0001:000010b8       ?GetInterfaceHook@CCmdTarget@@UAAPAUIUnknown@@PBX@Z 000120b8 f   MFCCE400:mfcce400.dll
+ 0001:000010c8       ?OnCreateAggregates@CCmdTarget@@UAAHXZ 000120c8 f   MFCCE400:mfcce400.dll
+ 0001:000010d8       ?GetEventSinkMap@CCmdTarget@@MBAPBUAFX_EVENTSINKMAP@@XZ 000120d8 f   MFCCE400:mfcce400.dll
+ 0001:000010e8       ?GetInterfaceMap@CCmdTarget@@MBAPBUAFX_INTERFACEMAP@@XZ 000120e8 f   MFCCE400:mfcce400.dll
+ 0001:000010f8       ?GetConnectionMap@CCmdTarget@@MBAPBUAFX_CONNECTIONMAP@@XZ 000120f8 f   MFCCE400:mfcce400.dll
+ 0001:00001108       ?GetDispatchMap@CCmdTarget@@MBAPBUAFX_DISPMAP@@XZ 00012108 f   MFCCE400:mfcce400.dll
+ 0001:00001118       ?GetTypeLib@CCmdTarget@@UAAJKPAPAUITypeLib@@@Z 00012118 f   MFCCE400:mfcce400.dll
+ 0001:00001128       ?GetTypeLibCache@CCmdTarget@@UAAPAVCTypeLibCache@@XZ 00012128 f   MFCCE400:mfcce400.dll
+ 0001:00001138       ?GetTypeInfoCount@CCmdTarget@@UAAIXZ 00012138 f   MFCCE400:mfcce400.dll
+ 0001:00001148       ?GetDispatchIID@CCmdTarget@@UAAHPAU_GUID@@@Z 00012148 f   MFCCE400:mfcce400.dll
+ 0001:00001158       ?IsInvokeAllowed@CCmdTarget@@UAAHJ@Z 00012158 f   MFCCE400:mfcce400.dll
+ 0001:00001168       ?OnFinalRelease@CCmdTarget@@UAAXXZ 00012168 f   MFCCE400:mfcce400.dll
+ 0001:00001178       ?OnCmdMsg@CCmdTarget@@UAAHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 00012178 f   MFCCE400:mfcce400.dll
+ 0001:00001188       ?GetRuntimeClass@CWinApp@@UBAPAUCRuntimeClass@@XZ 00012188 f   MFCCE400:mfcce400.dll
+ 0001:00001198       ??0CWinApp@@QAA@PBG@Z      00012198 f   MFCCE400:mfcce400.dll
+ 0001:000011a8       ??1CWinApp@@UAA@XZ         000121a8 f   MFCCE400:mfcce400.dll
+ 0001:000011b8       ?DoModal@CDialog@@UAAHXZ   000121b8 f   MFCCE400:mfcce400.dll
+ 0001:000011c8       ??1CDialog@@UAA@XZ         000121c8 f   MFCCE400:mfcce400.dll
+ 0001:000011d8       ??3@YAXPAX@Z               000121d8 f   MFCCE400:mfcce400.dll
+ 0001:000011e8       ?PreInitDialog@CDialog@@MAAXXZ 000121e8 f   MFCCE400:mfcce400.dll
+ 0001:000011f8       ?OnCancel@CDialog@@MAAXXZ  000121f8 f   MFCCE400:mfcce400.dll
+ 0001:00001208       ?OnOK@CDialog@@MAAXXZ      00012208 f   MFCCE400:mfcce400.dll
+ 0001:00001218       ?OnSetFont@CDialog@@UAAXPAVCFont@@@Z 00012218 f   MFCCE400:mfcce400.dll
+ 0001:00001228       ?SetOccDialogInfo@CDialog@@MAAHPAU_AFX_OCC_DIALOG_INFO@@@Z 00012228 f   MFCCE400:mfcce400.dll
+ 0001:00001238       ?IsFrameWnd@CWnd@@UBAHXZ   00012238 f   MFCCE400:mfcce400.dll
+ 0001:00001248       ?CheckAutoCenter@CDialog@@UAAHXZ 00012248 f   MFCCE400:mfcce400.dll
+ 0001:00001258       ?OnChildNotify@CWnd@@MAAHIIJPAJ@Z 00012258 f   MFCCE400:mfcce400.dll
+ 0001:00001268       ?PostNcDestroy@CWnd@@MAAXXZ 00012268 f   MFCCE400:mfcce400.dll
+ 0001:00001278       ?DefWindowProcW@CWnd@@MAAJIIJ@Z 00012278 f   MFCCE400:mfcce400.dll
+ 0001:00001288       ?OnWndMsg@CWnd@@MAAHIIJPAJ@Z 00012288 f   MFCCE400:mfcce400.dll
+ 0001:00001298       ?WindowProc@CWnd@@MAAJIIJ@Z 00012298 f   MFCCE400:mfcce400.dll
+ 0001:000012a8       ?OnAmbientProperty@CWnd@@UAAHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 000122a8 f   MFCCE400:mfcce400.dll
+ 0001:000012b8       ?PreTranslateMessage@CDialog@@UAAHPAUtagMSG@@@Z 000122b8 f   MFCCE400:mfcce400.dll
+ 0001:000012c8       ?GetSuperWndProcAddr@CWnd@@MAAPAP6AJPAUHWND__@@IIJ@ZXZ 000122c8 f   MFCCE400:mfcce400.dll
+ 0001:000012d8       ?OnNotify@CWnd@@MAAHIJPAJ@Z 000122d8 f   MFCCE400:mfcce400.dll
+ 0001:000012e8       ?OnCommand@CWnd@@MAAHIJ@Z  000122e8 f   MFCCE400:mfcce400.dll
+ 0001:000012f8       ?EndModalLoop@CWnd@@UAAXH@Z 000122f8 f   MFCCE400:mfcce400.dll
+ 0001:00001308       ?ContinueModal@CWnd@@UAAHXZ 00012308 f   MFCCE400:mfcce400.dll
+ 0001:00001318       ?WinHelp@CWnd@@UAAXKI@Z    00012318 f   MFCCE400:mfcce400.dll
+ 0001:00001328       ?GetScrollBarCtrl@CWnd@@UBAPAVCScrollBar@@H@Z 00012328 f   MFCCE400:mfcce400.dll
+ 0001:00001338       ?CalcWindowRect@CWnd@@UAAXPAUtagRECT@@I@Z 00012338 f   MFCCE400:mfcce400.dll
+ 0001:00001348       ?PreCreateWindow@CWnd@@UAAHAAUtagCREATESTRUCTW@@@Z 00012348 f   MFCCE400:mfcce400.dll
+ 0001:00001358       ?DestroyWindow@CWnd@@UAAHXZ 00012358 f   MFCCE400:mfcce400.dll
+ 0001:00001368       ?Create@CWnd@@UAAHPBG0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 00012368 f   MFCCE400:mfcce400.dll
+ 0001:00001378       ?PreSubclassWindow@CWnd@@UAAXXZ 00012378 f   MFCCE400:mfcce400.dll
+ 0001:00001388       ?OnFinalRelease@CWnd@@UAAXXZ 00012388 f   MFCCE400:mfcce400.dll
+ 0001:00001398       ?OnCmdMsg@CDialog@@UAAHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 00012398 f   MFCCE400:mfcce400.dll
+ 0001:000013a8       ?GetRuntimeClass@CDialog@@UBAPAUCRuntimeClass@@XZ 000123a8 f   MFCCE400:mfcce400.dll
+ 0001:000013b8       ?AfxFindResourceHandle@@YAPAUHINSTANCE__@@PBG0@Z 000123b8 f   MFCCE400:mfcce400.dll
+ 0001:000013c8       ?AfxGetModuleState@@YAPAVAFX_MODULE_STATE@@XZ 000123c8 f   MFCCE400:mfcce400.dll
+ 0001:000013d8       ??0CDialog@@QAA@IPAVCWnd@@@Z 000123d8 f   MFCCE400:mfcce400.dll
+ 0001:000013e8       ?ShowWindow@CWnd@@QAAHH@Z  000123e8 f   MFCCE400:mfcce400.dll
+ 0001:000013f8       ?ModifyStyleEx@CWnd@@QAAHKKI@Z 000123f8 f   MFCCE400:mfcce400.dll
+ 0001:00001408       ?ModifyStyle@CWnd@@QAAHKKI@Z 00012408 f   MFCCE400:mfcce400.dll
+ 0001:00001418       ?CenterWindow@CWnd@@QAAXPAV1@@Z 00012418 f   MFCCE400:mfcce400.dll
+ 0001:00001428       ?FromHandle@CWnd@@SAPAV1@PAUHWND__@@@Z 00012428 f   MFCCE400:mfcce400.dll
+ 0001:00001438       ?OnInitDialog@CDialog@@UAAHXZ 00012438 f   MFCCE400:mfcce400.dll
+ 0001:00001448       ?UpdateData@CWnd@@QAAHH@Z  00012448 f   MFCCE400:mfcce400.dll
+ 0001:00001458       ??2@YAPAXI@Z               00012458 f   MFCCE400:mfcce400.dll
+ 0001:00001468       ?MessageBoxW@CWnd@@QAAHPBG0I@Z 00012468 f   MFCCE400:mfcce400.dll
+ 0001:00001478       FreeLibrary                00012478 f   coredll:COREDLL.dll
+ 0001:00001488       GetProcAddressW            00012488 f   coredll:COREDLL.dll
+ 0001:00001498       LoadLibraryW               00012498 f   coredll:COREDLL.dll
+ 0001:000014a8       GetLastError               000124a8 f   coredll:COREDLL.dll
+ 0001:000014b8       memcpy                     000124b8 f   coredll:COREDLL.dll
+ 0001:000014c8       malloc                     000124c8 f   coredll:COREDLL.dll
+ 0001:000014d8       RegCloseKey                000124d8 f   coredll:COREDLL.dll
+ 0001:000014e8       RegQueryValueExW           000124e8 f   coredll:COREDLL.dll
+ 0001:000014f8       RegOpenKeyExW              000124f8 f   coredll:COREDLL.dll
+ 0001:00001508       RegSetValueExW             00012508 f   coredll:COREDLL.dll
+ 0001:00001518       RegCreateKeyExW            00012518 f   coredll:COREDLL.dll
+ 0001:00001528       LoadIconW                  00012528 f   coredll:COREDLL.dll
+ 0001:00001538       SendMessageW               00012538 f   coredll:COREDLL.dll
+ 0001:00001548       GetDlgItem                 00012548 f   coredll:COREDLL.dll
+ 0001:00001558       PostQuitMessage            00012558 f   coredll:COREDLL.dll
+ 0001:00001568       ShellExecuteEx             00012568 f   coredll:COREDLL.dll
+ 0001:00001578       EnableWindow               00012578 f   coredll:COREDLL.dll
+ 0001:00001590       wWinMainCRTStartup         00012590 f   corelibc:wwinmain.obj
+ 0001:00001604       _onexit                    00012604 f   corelibc:onexit.obj
+ 0001:000016b0       atexit                     000126b0 f   corelibc:onexit.obj
+ 0001:000016d0       GetCurrentProcess          000126d0 f i corelibc:crt0dat.obj
+ 0001:0000170c       _cinit                     0001270c f   corelibc:crt0dat.obj
+ 0001:0000187c       exit                       0001287c f   corelibc:crt0dat.obj
+ 0001:00001894       _exit                      00012894 f   corelibc:crt0dat.obj
+ 0001:000018ac       _cexit                     000128ac f   corelibc:crt0dat.obj
+ 0001:000018c8       _c_exit                    000128c8 f   corelibc:crt0dat.obj
+ 0001:00001914       wWinMain                   00012914 f   mfcs42:appmodul.obj
+ 0001:00001924       ?AfxInitialize@@YAHHK@Z    00012924 f   mfcs42:appmodul.obj
+ 0001:00001990       ?AfxWinMain@@YAHPAUHINSTANCE__@@0PAGH@Z 00012990 f   MFCCE400:mfcce400.dll
+ 0001:000019a0       _XcptFilter                000129a0 f   coredll:COREDLL.dll
+ 0001:000019b0       __C_specific_handler       000129b0 f   coredll:COREDLL.dll
+ 0001:000019c0       LocalReAlloc               000129c0 f   coredll:COREDLL.dll
+ 0001:000019d0       LocalAlloc                 000129d0 f   coredll:COREDLL.dll
+ 0001:000019e0       LocalSize                  000129e0 f   coredll:COREDLL.dll
+ 0001:000019f0       LocalFree                  000129f0 f   coredll:COREDLL.dll
+ 0002:0000001c       ?_messageEntries@CFuncKeysApp@@0QBUAFX_MSGMAP_ENTRY@@B 0001301c     FuncKeys.obj
+ 0002:00000034       ?messageMap@CFuncKeysApp@@1UAFX_MSGMAP@@B 00013034     FuncKeys.obj
+ 0002:00000040       ??_7CFuncKeysApp@@6B@      00013040     FuncKeys.obj
+ 0002:000000e0       ?_messageEntries@CFuncKeysDlg@@0QBUAFX_MSGMAP_ENTRY@@B 000130e0     FuncKeysDlg.obj
+ 0002:00000170       ?messageMap@CFuncKeysDlg@@1UAFX_MSGMAP@@B 00013170     FuncKeysDlg.obj
+ 0002:00000178       ??_7CFuncKeysDlg@@6B@      00013178     FuncKeysDlg.obj
+ 0002:000002a8       __IMPORT_DESCRIPTOR_mfcce400 000132a8     MFCCE400:mfcce400.dll
+ 0002:000002bc       __IMPORT_DESCRIPTOR_COREDLL 000132bc     coredll:COREDLL.dll
+ 0002:000002d0       __NULL_IMPORT_DESCRIPTOR   000132d0     MFCCE400:mfcce400.dll
+ 0003:00000000       __imp_LocalFree            00014000     coredll:COREDLL.dll
+ 0003:00000004       __imp_LocalAlloc           00014004     coredll:COREDLL.dll
+ 0003:00000008       __imp_LocalReAlloc         00014008     coredll:COREDLL.dll
+ 0003:0000000c       __imp___C_specific_handler 0001400c     coredll:COREDLL.dll
+ 0003:00000010       __imp__XcptFilter          00014010     coredll:COREDLL.dll
+ 0003:00000014       __imp_EnableWindow         00014014     coredll:COREDLL.dll
+ 0003:00000018       __imp_ShellExecuteEx       00014018     coredll:COREDLL.dll
+ 0003:0000001c       __imp_PostQuitMessage      0001401c     coredll:COREDLL.dll
+ 0003:00000020       __imp_GetDlgItem           00014020     coredll:COREDLL.dll
+ 0003:00000024       __imp_SendMessageW         00014024     coredll:COREDLL.dll
+ 0003:00000028       __imp_LoadIconW            00014028     coredll:COREDLL.dll
+ 0003:0000002c       __imp_RegCreateKeyExW      0001402c     coredll:COREDLL.dll
+ 0003:00000030       __imp_RegSetValueExW       00014030     coredll:COREDLL.dll
+ 0003:00000034       __imp_RegOpenKeyExW        00014034     coredll:COREDLL.dll
+ 0003:00000038       __imp_RegQueryValueExW     00014038     coredll:COREDLL.dll
+ 0003:0000003c       __imp_RegCloseKey          0001403c     coredll:COREDLL.dll
+ 0003:00000040       __imp_malloc               00014040     coredll:COREDLL.dll
+ 0003:00000044       __imp_memcpy               00014044     coredll:COREDLL.dll
+ 0003:00000048       __imp_GetLastError         00014048     coredll:COREDLL.dll
+ 0003:0000004c       __imp_LoadLibraryW         0001404c     coredll:COREDLL.dll
+ 0003:00000050       __imp_GetProcAddressW      00014050     coredll:COREDLL.dll
+ 0003:00000054       __imp_FreeLibrary          00014054     coredll:COREDLL.dll
+ 0003:00000058       __imp_LocalSize            00014058     coredll:COREDLL.dll
+ 0003:0000005c       \177COREDLL_NULL_THUNK_DATA 0001405c     coredll:COREDLL.dll
+ 0003:00000060       __imp_?GetConnectionMap@CCmdTarget@@MBAPBUAFX_CONNECTIONMAP@@XZ 00014060     MFCCE400:mfcce400.dll
+ 0003:00000064       __imp_?GetDispatchMap@CCmdTarget@@MBAPBUAFX_DISPMAP@@XZ 00014064     MFCCE400:mfcce400.dll
+ 0003:00000068       __imp_?GetTypeLib@CCmdTarget@@UAAJKPAPAUITypeLib@@@Z 00014068     MFCCE400:mfcce400.dll
+ 0003:0000006c       __imp_?GetTypeLibCache@CCmdTarget@@UAAPAVCTypeLibCache@@XZ 0001406c     MFCCE400:mfcce400.dll
+ 0003:00000070       __imp_?GetTypeInfoCount@CCmdTarget@@UAAIXZ 00014070     MFCCE400:mfcce400.dll
+ 0003:00000074       __imp_?GetDispatchIID@CCmdTarget@@UAAHPAU_GUID@@@Z 00014074     MFCCE400:mfcce400.dll
+ 0003:00000078       __imp_?IsInvokeAllowed@CCmdTarget@@UAAHJ@Z 00014078     MFCCE400:mfcce400.dll
+ 0003:0000007c       __imp_?OnFinalRelease@CCmdTarget@@UAAXXZ 0001407c     MFCCE400:mfcce400.dll
+ 0003:00000080       __imp_?OnCmdMsg@CCmdTarget@@UAAHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 00014080     MFCCE400:mfcce400.dll
+ 0003:00000084       __imp_?GetRuntimeClass@CWinApp@@UBAPAUCRuntimeClass@@XZ 00014084     MFCCE400:mfcce400.dll
+ 0003:00000088       __imp_??0CWinApp@@QAA@PBG@Z 00014088     MFCCE400:mfcce400.dll
+ 0003:0000008c       __imp_??1CWinApp@@UAA@XZ   0001408c     MFCCE400:mfcce400.dll
+ 0003:00000090       __imp_?DoModal@CDialog@@UAAHXZ 00014090     MFCCE400:mfcce400.dll
+ 0003:00000094       __imp_??1CDialog@@UAA@XZ   00014094     MFCCE400:mfcce400.dll
+ 0003:00000098       __imp_??3@YAXPAX@Z         00014098     MFCCE400:mfcce400.dll
+ 0003:0000009c       __imp_?PreInitDialog@CDialog@@MAAXXZ 0001409c     MFCCE400:mfcce400.dll
+ 0003:000000a0       __imp_?OnCancel@CDialog@@MAAXXZ 000140a0     MFCCE400:mfcce400.dll
+ 0003:000000a4       __imp_?OnOK@CDialog@@MAAXXZ 000140a4     MFCCE400:mfcce400.dll
+ 0003:000000a8       __imp_?OnSetFont@CDialog@@UAAXPAVCFont@@@Z 000140a8     MFCCE400:mfcce400.dll
+ 0003:000000ac       __imp_?SetOccDialogInfo@CDialog@@MAAHPAU_AFX_OCC_DIALOG_INFO@@@Z 000140ac     MFCCE400:mfcce400.dll
+ 0003:000000b0       __imp_?IsFrameWnd@CWnd@@UBAHXZ 000140b0     MFCCE400:mfcce400.dll
+ 0003:000000b4       __imp_?CheckAutoCenter@CDialog@@UAAHXZ 000140b4     MFCCE400:mfcce400.dll
+ 0003:000000b8       __imp_?OnChildNotify@CWnd@@MAAHIIJPAJ@Z 000140b8     MFCCE400:mfcce400.dll
+ 0003:000000bc       __imp_?PostNcDestroy@CWnd@@MAAXXZ 000140bc     MFCCE400:mfcce400.dll
+ 0003:000000c0       __imp_?DefWindowProcW@CWnd@@MAAJIIJ@Z 000140c0     MFCCE400:mfcce400.dll
+ 0003:000000c4       __imp_?OnWndMsg@CWnd@@MAAHIIJPAJ@Z 000140c4     MFCCE400:mfcce400.dll
+ 0003:000000c8       __imp_?WindowProc@CWnd@@MAAJIIJ@Z 000140c8     MFCCE400:mfcce400.dll
+ 0003:000000cc       __imp_?OnAmbientProperty@CWnd@@UAAHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 000140cc     MFCCE400:mfcce400.dll
+ 0003:000000d0       __imp_?PreTranslateMessage@CDialog@@UAAHPAUtagMSG@@@Z 000140d0     MFCCE400:mfcce400.dll
+ 0003:000000d4       __imp_?GetInterfaceMap@CCmdTarget@@MBAPBUAFX_INTERFACEMAP@@XZ 000140d4     MFCCE400:mfcce400.dll
+ 0003:000000d8       __imp_?OnNotify@CWnd@@MAAHIJPAJ@Z 000140d8     MFCCE400:mfcce400.dll
+ 0003:000000dc       __imp_?OnCommand@CWnd@@MAAHIJ@Z 000140dc     MFCCE400:mfcce400.dll
+ 0003:000000e0       __imp_?EndModalLoop@CWnd@@UAAXH@Z 000140e0     MFCCE400:mfcce400.dll
+ 0003:000000e4       __imp_?ContinueModal@CWnd@@UAAHXZ 000140e4     MFCCE400:mfcce400.dll
+ 0003:000000e8       __imp_?WinHelp@CWnd@@UAAXKI@Z 000140e8     MFCCE400:mfcce400.dll
+ 0003:000000ec       __imp_?GetScrollBarCtrl@CWnd@@UBAPAVCScrollBar@@H@Z 000140ec     MFCCE400:mfcce400.dll
+ 0003:000000f0       __imp_?CalcWindowRect@CWnd@@UAAXPAUtagRECT@@I@Z 000140f0     MFCCE400:mfcce400.dll
+ 0003:000000f4       __imp_?PreCreateWindow@CWnd@@UAAHAAUtagCREATESTRUCTW@@@Z 000140f4     MFCCE400:mfcce400.dll
+ 0003:000000f8       __imp_?DestroyWindow@CWnd@@UAAHXZ 000140f8     MFCCE400:mfcce400.dll
+ 0003:000000fc       __imp_?Create@CWnd@@UAAHPBG0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 000140fc     MFCCE400:mfcce400.dll
+ 0003:00000100       __imp_?PreSubclassWindow@CWnd@@UAAXXZ 00014100     MFCCE400:mfcce400.dll
+ 0003:00000104       __imp_?OnFinalRelease@CWnd@@UAAXXZ 00014104     MFCCE400:mfcce400.dll
+ 0003:00000108       __imp_?OnCmdMsg@CDialog@@UAAHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 00014108     MFCCE400:mfcce400.dll
+ 0003:0000010c       __imp_?GetRuntimeClass@CDialog@@UBAPAUCRuntimeClass@@XZ 0001410c     MFCCE400:mfcce400.dll
+ 0003:00000110       __imp_?AfxFindResourceHandle@@YAPAUHINSTANCE__@@PBG0@Z 00014110     MFCCE400:mfcce400.dll
+ 0003:00000114       __imp_?AfxGetModuleState@@YAPAVAFX_MODULE_STATE@@XZ 00014114     MFCCE400:mfcce400.dll
+ 0003:00000118       __imp_??0CDialog@@QAA@IPAVCWnd@@@Z 00014118     MFCCE400:mfcce400.dll
+ 0003:0000011c       __imp_?messageMap@CDialog@@1UAFX_MSGMAP@@B 0001411c     MFCCE400:mfcce400.dll
+ 0003:00000120       __imp_?ShowWindow@CWnd@@QAAHH@Z 00014120     MFCCE400:mfcce400.dll
+ 0003:00000124       __imp_?ModifyStyleEx@CWnd@@QAAHKKI@Z 00014124     MFCCE400:mfcce400.dll
+ 0003:00000128       __imp_?ModifyStyle@CWnd@@QAAHKKI@Z 00014128     MFCCE400:mfcce400.dll
+ 0003:0000012c       __imp_?CenterWindow@CWnd@@QAAXPAV1@@Z 0001412c     MFCCE400:mfcce400.dll
+ 0003:00000130       __imp_?FromHandle@CWnd@@SAPAV1@PAUHWND__@@@Z 00014130     MFCCE400:mfcce400.dll
+ 0003:00000134       __imp_?OnInitDialog@CDialog@@UAAHXZ 00014134     MFCCE400:mfcce400.dll
+ 0003:00000138       __imp_?UpdateData@CWnd@@QAAHH@Z 00014138     MFCCE400:mfcce400.dll
+ 0003:0000013c       __imp_??2@YAPAXI@Z         0001413c     MFCCE400:mfcce400.dll
+ 0003:00000140       __imp_?MessageBoxW@CWnd@@QAAHPBG0I@Z 00014140     MFCCE400:mfcce400.dll
+ 0003:00000144       __imp_?GetEventSinkMap@CCmdTarget@@MBAPBUAFX_EVENTSINKMAP@@XZ 00014144     MFCCE400:mfcce400.dll
+ 0003:00000148       __imp_?OnCreateAggregates@CCmdTarget@@UAAHXZ 00014148     MFCCE400:mfcce400.dll
+ 0003:0000014c       __imp_?GetInterfaceHook@CCmdTarget@@UAAPAUIUnknown@@PBX@Z 0001414c     MFCCE400:mfcce400.dll
+ 0003:00000150       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAAHPAVCPtrArray@@@Z 00014150     MFCCE400:mfcce400.dll
+ 0003:00000154       __imp_?GetConnectionHook@CCmdTarget@@MAAPAUIConnectionPoint@@ABU_GUID@@@Z 00014154     MFCCE400:mfcce400.dll
+ 0003:00000158       __imp_?Run@CWinApp@@UAAHXZ 00014158     MFCCE400:mfcce400.dll
+ 0003:0000015c       __imp_?PreTranslateMessage@CWinThread@@UAAHPAUtagMSG@@@Z 0001415c     MFCCE400:mfcce400.dll
+ 0003:00000160       __imp_?PumpMessage@CWinThread@@UAAHXZ 00014160     MFCCE400:mfcce400.dll
+ 0003:00000164       __imp_?OnIdle@CWinApp@@UAAHJ@Z 00014164     MFCCE400:mfcce400.dll
+ 0003:00000168       __imp_?IsIdleMessage@CWinThread@@UAAHPAUtagMSG@@@Z 00014168     MFCCE400:mfcce400.dll
+ 0003:0000016c       __imp_?ExitInstance@CWinApp@@UAAHXZ 0001416c     MFCCE400:mfcce400.dll
+ 0003:00000170       __imp_?ProcessWndProcException@CWinApp@@UAAJPAVCException@@PBUtagMSG@@@Z 00014170     MFCCE400:mfcce400.dll
+ 0003:00000174       __imp_?GetMainWnd@CWinThread@@UAAPAVCWnd@@XZ 00014174     MFCCE400:mfcce400.dll
+ 0003:00000178       __imp_?Delete@CWinThread@@UAAXXZ 00014178     MFCCE400:mfcce400.dll
+ 0003:0000017c       __imp_?OpenDocumentFile@CWinApp@@UAAPAVCDocument@@PBG@Z 0001417c     MFCCE400:mfcce400.dll
+ 0003:00000180       __imp_?AddToRecentFileList@CWinApp@@UAAXPBG@Z 00014180     MFCCE400:mfcce400.dll
+ 0003:00000184       __imp_?InitApplication@CWinApp@@UAAHXZ 00014184     MFCCE400:mfcce400.dll
+ 0003:00000188       __imp_?SaveAllModified@CWinApp@@UAAHXZ 00014188     MFCCE400:mfcce400.dll
+ 0003:0000018c       __imp_?AfxWinMain@@YAHPAUHINSTANCE__@@0PAGH@Z 0001418c     MFCCE400:mfcce400.dll
+ 0003:00000190       __imp_?DoMessageBox@CWinApp@@UAAHPBGII@Z 00014190     MFCCE400:mfcce400.dll
+ 0003:00000194       __imp_?DoWaitCursor@CWinApp@@UAAXH@Z 00014194     MFCCE400:mfcce400.dll
+ 0003:00000198       __imp_?OnDDECommand@CWinApp@@UAAHPAG@Z 00014198     MFCCE400:mfcce400.dll
+ 0003:0000019c       __imp_?WinHelp@CWinApp@@UAAXKI@Z 0001419c     MFCCE400:mfcce400.dll
+ 0003:000001a0       __imp_?GetSuperWndProcAddr@CWnd@@MAAPAP6AJPAUHWND__@@IIJ@ZXZ 000141a0     MFCCE400:mfcce400.dll
+ 0003:000001a4       __imp_?messageMap@CWinApp@@1UAFX_MSGMAP@@B 000141a4     MFCCE400:mfcce400.dll
+ 0003:000001a8       \177mfcce400_NULL_THUNK_DATA 000141a8     MFCCE400:mfcce400.dll
+ 0003:000001ac       __xc_a                     000141ac     corelibc:crt0init.obj
+ 0003:000001b8       __xc_z                     000141b8     corelibc:crt0init.obj
+ 0003:000001bc       __xi_a                     000141bc     corelibc:crt0init.obj
+ 0003:000001c0       __xi_z                     000141c0     corelibc:crt0init.obj
+ 0003:000001c4       __xp_a                     000141c4     corelibc:crt0init.obj
+ 0003:000001c8       __xp_z                     000141c8     corelibc:crt0init.obj
+ 0003:000001cc       __xt_a                     000141cc     corelibc:crt0init.obj
+ 0003:000001d0       __xt_z                     000141d0     corelibc:crt0init.obj
+ 0003:000001d8       ?vkValues@@3PAKA           000141d8     FuncKeysDlg.obj
+ 0003:00000208       ??_C@_1BO@LFBK@?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAe?$AAr?$AAH?$AAo?$AAt?$AAK?$AAe?$AAy?$AA?$AA@ 00014208     FuncKeysDlg.obj
+ 0003:00000228       ??_C@_1CA@FNNG@?$AAU?$AAn?$AAr?$AAe?$AAg?$AAi?$AAs?$AAt?$AAe?$AAr?$AAF?$AAu?$AAn?$AAc?$AA1?$AA?$AA@ 00014228     FuncKeysDlg.obj
+ 0003:00000248       ??_C@_1BI@KJOP@?$AAC?$AAo?$AAr?$AAe?$AAD?$AAL?$AAL?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 00014248     FuncKeysDlg.obj
+ 0003:00000260       ??_C@_1BA@JJOL@?$AAK?$AAe?$AAy?$AAL?$AAi?$AAs?$AAt?$AA?$AA@ 00014260     FuncKeysDlg.obj
+ 0003:00000270       ??_C@_1DG@GJKD@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAI?$AAn?$AAt?$AAe?$AAr?$AAm?$AAe?$AAc?$AA?2?$AAF?$AAu@ 00014270     FuncKeysDlg.obj
+ 0003:000002a8       ??_C@_1LA@MJEK@?$AAC?$AAh?$AAa?$AAn?$AAg?$AAe?$AAs?$AA?5?$AAm?$AAa?$AAy?$AA?5?$AAn?$AAe?$AAe?$AAd?$AA?5?$AAa?$AA?5?$AAw@ 000142a8     FuncKeysDlg.obj
+ 0003:00000358       ??_C@_1CI@KADA@?$AAU?$AAn?$AAr?$AAe?$AAg?$AAi?$AAs?$AAt?$AAe?$AAr?$AA?5?$AAF?$AAu?$AAn?$AAc?$AAK?$AAe?$AAy?$AAs?$AA?$AA@ 00014358     FuncKeysDlg.obj
+ 0003:00000380       ??_C@_1CM@HDL@?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAF?$AAu?$AAn?$AAc?$AAK?$AAe?$AAy?$AAs?$AA?4?$AAh?$AAt@ 00014380     FuncKeysDlg.obj
+ 0003:000003ac       ??_C@_19MHMH@?$AAO?$AAp?$AAe?$AAn?$AA?$AA@ 000143ac     FuncKeysDlg.obj
+ 0003:000003b8       ?theApp@@3VCFuncKeysApp@@A 000143b8     FuncKeys.obj
+ 0003:0000046c       ?USED_IN_DLL@@3HA          0001446c     FuncKeysDlg.obj
+ 0003:00000470       ?RegisterHotKey1@@3P6AIPAUHWND__@@HII@ZA 00014470     FuncKeysDlg.obj
+ 0003:00000474       ?UnregisterFunc1@@3P6A_NIH@ZA 00014474     FuncKeysDlg.obj
+ 0003:00000478       ?hCoreDll@@3PAUHINSTANCE__@@A 00014478     FuncKeysDlg.obj
+ 0003:0000047c       __afxForceSTDAFX           0001447c     mfcs42:stdafx.obj
+ 0003:00000480       ?_afxInitAppState@@3DA     00014480     mfcs42:appmodul.obj
+ 0003:00000484       __onexitend                00014484     <common>
+ 0003:00000488       __onexitbegin              00014488     <common>
+ 0003:0000048c       _exitflag                  0001448c     <common>
+
+ entry point at        0001:00001590
+
+ Static symbols
+
+ 0001:0000008c       $E186                      0001108c f   FuncKeys.obj
+ 0001:0000009c       $E183                      0001109c f   FuncKeys.obj
+ 0001:000000b0       $E185                      000110b0 f   FuncKeys.obj
+ 0001:000000c4       $E184                      000110c4 f   FuncKeys.obj
+ 0001:000016d8       _initterm                  000126d8 f   corelibc:crt0dat.obj
+ 0001:00001778       doexit                     00012778 f   corelibc:crt0dat.obj
+ 0001:00001954       $E258                      00012954 f   mfcs42:appmodul.obj
+ 0001:00001964       $E257                      00012964 f   mfcs42:appmodul.obj

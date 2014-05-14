@@ -1,0 +1,3 @@
+Warning: Section [DestinationDirs] key "CopyFiles1" is not using the string "%InstallDir%"
+Warning: Section [DestinationDirs] key "CopyFiles2" is not using the string "%InstallDir%"
+Warning: Section [AddRegistry] registry value "KeyList" contains 3 bytes of data - please verify. If incorrect, the wrong binary format may be in use.

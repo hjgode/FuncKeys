@@ -1,0 +1,219 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html><head>
+
+<title>Untitled</title><meta name="generator" content="Namo WebEditor v3.0"></head>
+<body alink="red" bgcolor="white" link="blue" text="black" vlink="purple">
+
+<h1>FuncKeys application set</h1>
+FuncKeys, FuncKeysCPL and FuncKeysUnReg builds a set of applications to unregister 
+function keys that have been registered as hotkeys by windows mobile or a windows 
+mobile application.<br><span style="font-weight: bold;">FuncKeys</span><br><div style="margin-left: 40px;">The application to manage which keys will be unregistered<br></div><span style="font-weight: bold;">FuncKeysCPL</span><br><div style="margin-left: 40px;">A control panel applet which simply starts the FuncKeys application<br></div><span style="font-weight: bold;">FuncKeysUnReg</span><br><div style="margin-left: 40px;">The application that unregisters the function keys on windows startup<br></div><h3>Background</h3>
+In example, the phone application - cprog.exe - registers the hotkeys
+F3 and F4 on startup. The 'function keys' are also mapped to other
+named keys, see 'Mapping from winuserm.h'. If you select F3 and F4 in
+FuncKeys, these keys will be unregistered on startup
+by&nbsp;FuncKeysUnReg.<br><h2>FuncKeysCPL</h2>This
+little app enables you to launch FuncKeys from Start-Settings-System.
+It is a simple control panel applet that will launch FuncKeys.<br><img style="width: 240px; height: 320px;" alt="FuncKeys CPL" src="FuncKeys0.jpg"><h2>FuncKeys</h2>This
+is the application to manage the keys that will be unregistered by
+FuncKeysUnReg .&nbsp;FuncKeys is simply an interface to the registry
+key HKLM\Software\Intermec\FuncKeys:KeyList. This registry key is used
+by&nbsp;FuncKeysUnReg to read the keys to unregister these keys on
+startup.<br><img style="width: 240px; height: 320px;" alt="FuncKeys screen" src="FuncKeys1.jpg"><h2>FuncKeysUnReg</h2>This
+application will use UnregisterFunc to deregister system wide Function
+Key assignments. Some applications will register Function Keys during
+there start (i.e. the phone app, cprog.exe). If you use the autostart
+component (FuncKeysUnreg), these app's function keys will be
+deregistered. To get there default function key assignment back, the
+apps have to be relaunched. You can remove FuncKeysUnReg from the
+startup folder and warmboot the device or deselect &nbsp;F3 and F4 in
+FuncKeys and then reboot.<br><h2>Installation</h2>You can use the installation cab file or install the tool set manually.<br><table style="text-align: left; width: 334px; height: 200px;" border="1" cellpadding="2" cellspacing="2"><tbody><tr><td style="font-weight: bold;">Source file</td><td><span style="font-weight: bold;">Target directory</span></td></tr><tr><td>FuncKeys.exe</td><td>Windows</td></tr><tr><td>FuncKeysCPL.cpl</td><td>Windows</td></tr><tr><td>FuncKeysUnReg.exe</td><td>Windows</td></tr><tr><td>FuncKeys.htm</td><td>Windows</td></tr><tr><td>FuncKeys0.jpg</td><td>Windows</td></tr><tr><td>FuncKeys1.jpg</td><td>Windows</td></tr></tbody></table><br><h2>Mapping from winuserm.h</h2><table border="1">
+    <tbody><tr>
+        <td>VK_TSOFT1</td>
+        <td><b>VK_F1</b></td>
+        <td>// Softkey 1</td>
+    </tr>
+    <tr>
+        <td>VK_TSOFT2</td>
+        <td><b>VK_F2</b></td>
+        <td>// Softkey 2</td>
+    </tr>
+    <tr>
+        <td>VK_TTALK</td>
+        <td><b>VK_F3</b></td>
+        <td>// Talk</td>
+    </tr>
+    <tr>
+        <td>VK_TEND</td>
+        <td><b>VK_F4</b></td>
+        <td>// End</td>
+    </tr>
+    <tr>
+        <td>VK_THOME</td>
+        <td>VK_LWIN</td>
+        <td>// Home</td>
+    </tr>
+    <tr>
+        <td>VK_TBACK</td>
+        <td>VK_ESCAPE</td>
+        <td>// Back</td>
+    </tr>
+    <tr>
+        <td>VK_TRECORD</td>
+        <td><b>VK_F10</b></td>
+        <td>// Record</td>
+    </tr>
+    <tr>
+        <td>VK_TFLIP</td>
+        <td>VK_F17</td>
+        <td>// Flip</td>
+    </tr>
+    <tr>
+        <td>VK_TPOWER</td>
+        <td>VK_F18</td>
+        <td>// Power</td>
+    </tr>
+    <tr>
+        <td>VK_TVOLUMEUP</td>
+        <td><b>VK_F6</b></td>
+        <td>// Volume Up</td>
+    </tr>
+    <tr>
+        <td>VK_TVOLUMEDOWN</td>
+        <td><b>VK_F7</b></td>
+        <td>// Volume Down</td>
+    </tr>
+    <tr>
+        <td>VK_TUP</td>
+        <td>VK_UP</td>
+        <td>// Up</td>
+    </tr>
+    <tr>
+        <td>VK_TDOWN</td>
+        <td>VK_DOWN</td>
+        <td>// Down</td>
+    </tr>
+    <tr>
+        <td>VK_TLEFT</td>
+        <td>VK_LEFT</td>
+        <td>// Left</td>
+    </tr>
+    <tr>
+        <td>VK_TRIGHT</td>
+        <td>VK_RIGHT</td>
+        <td>// Right</td>
+    </tr>
+    <tr>
+        <td>VK_T0</td>
+        <td>L'0'</td>
+        <td>// 0 .. 9 keys</td>
+    </tr>
+    <tr>
+        <td>VK_T1</td>
+        <td>L'1'</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>VK_T2</td>
+        <td>L'2'</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>VK_T3</td>
+        <td>L'3'</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>VK_T4</td>
+        <td>L'4'</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>VK_T5</td>
+        <td>L'5'</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>VK_T6</td>
+        <td>L'6'</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>VK_T7</td>
+        <td>L'7'</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>VK_T8</td>
+        <td>L'8'</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>VK_T9</td>
+        <td>L'9'</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>VK_TSTAR</td>
+        <td>VK_F8</td>
+        <td>// *</td>
+    </tr>
+    <tr>
+        <td>VK_TPOUND</td>
+        <td>VK_F9</td>
+        <td>// #</td>
+    </tr>
+    <tr>
+        <td>VK_SYMBOL</td>
+        <td>VK_F11</td>
+        <td>// Symbol (SYM) key</td>
+    </tr>
+    <tr>
+        <td>VK_REDKEY</td>
+        <td>VK_F19</td>
+        <td>// Sent by a keypad that has a special red function 
+            key</td>
+    </tr>
+    <tr>
+        <td>VK_ROCKER</td>
+        <td>VK_F20</td>
+        <td>// Arrow keys came from a Rocker</td>
+    </tr>
+    <tr>
+        <td>VK_DPAD</td>
+        <td>VK_F21</td>
+        <td>// Arrow keys came from a DPAD</td>
+    </tr>
+    <tr>
+        <td>VK_ACTION</td>
+        <td>VK_F23</td>
+        <td>// Sent with VK_RETURN when doing Action on PPC rockers</td>
+    </tr>
+    <tr>
+        <td>// Chorded keys.</td>
+        <td colspan="2" width="795">DONE is VK_RWIN + VK_F6 and MOJI is VK_RWIN 
+            + VK_F7</td>
+    </tr>
+    <tr>
+        <td>VK_DONE</td>
+        <td>VK_F6</td>
+        <td>// &lt;ok&gt; hotkey code</td>
+    </tr>
+    <tr>
+        <td>MOD_DONE</td>
+        <td>(MOD_WIN | MOD_KEYUP) </td>
+        <td>// &lt;ok&gt; hotkey modifiers</td>
+    </tr>
+    <tr>
+        <td>VK_MOJI</td>
+        <td>VK_F7</td>
+        <td>// Key used to switch between FE language layouts</td>
+    </tr>
+    <tr>
+        <td>MOD_MOJI</td>
+        <td>(MOD_WIN | MOD_KEYUP)</td>
+        <td>//Modifiers so MOJI goes to the shell</td>
+    </tr>
+</tbody></table>
+<br> 
+</body></html>

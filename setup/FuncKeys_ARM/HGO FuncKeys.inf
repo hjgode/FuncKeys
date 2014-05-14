@@ -1,0 +1,66 @@
+;
+; This file was automatically generated using:
+;
+;      WinCE CAB Manager 2, 1, 0, 35
+;      Copyright © 2001-2006 OCP Software, Inc.
+;      All Rights Reserved
+;
+; For more information on this product, please visit:
+;
+;      http://www.ocpsoftware.com
+;
+
+[SOURCE FILE]
+Name=FuncKeys
+Path=D:\C-Source\Active\FuncKeys\setup\FuncKeys.cab
+AllowUninstall=TRUE
+
+[Version]
+Signature="$Chicago$"
+CESignature="$Windows CE$"
+Provider="HGO"
+
+[CEStrings]
+AppName="FuncKeys"
+InstallDir="\Windows"
+
+[CEDevice]
+ProcessorType=0
+VersionMin=0.0
+VersionMax=0.0
+BuildMin=0
+BuildMax=0
+
+[SourceDisksNames]
+1=,Source1,,"Windows"
+2=,Source2,,"Windows\Startup"
+
+[SourceDisksFiles]
+"FuncKeys.exe"=1
+"FuncKeysCPL.cpl"=1
+"FuncKeysUnreg.exe"=2
+"FuncKeys.htm"=1
+"FuncKeys0.jpg"=1
+"FuncKeys1.jpg"=1
+
+[CopyFiles1]
+"FuncKeys.exe",,,0x00000001
+"FuncKeysCPL.cpl",,,0x00000001
+"FuncKeys.htm",,,0x00000001
+"FuncKeys0.jpg",,,0x00000001
+"FuncKeys1.jpg",,,0x00000001
+
+[CopyFiles2]
+"FuncKeysUnreg.exe",,,0x00000001
+
+[DestinationDirs]
+CopyFiles1=0,"%CE2%"
+CopyFiles2=0,"%CE4%"
+
+[AddRegistry]
+HKLM,"SOFTWARE\Intermec\FuncKeys","KeyList",0x00000001,70,71,75
+
+[DefaultInstall]
+CopyFiles=CopyFiles1,CopyFiles2
+AddReg=AddRegistry
+
