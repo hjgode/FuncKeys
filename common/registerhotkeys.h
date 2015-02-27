@@ -84,10 +84,10 @@ int regKey(HWND hWnd, DWORD vk_val){
 
 	bSuccess=UnregisterFunc1(keyMod, vk_val); // 0x5B
 	if(!bSuccess){
-		DEBUGMSG(1, (L"UnregisterFunc1 failed for %04x\n", vk_val));
+		DEBUGMSG(1, (L"UnregisterFunc1 failed for %04x (%i)\n", vk_val, vk_val));
 	}
 	else
-		DEBUGMSG(1, (L"UnregisterFunc1 OK for %04x\n", vk_val));
+		DEBUGMSG(1, (L"UnregisterFunc1 OK for %04x\n (%i)", vk_val, vk_val));
 
 	uint result; 
 	DWORD dwErr=0;

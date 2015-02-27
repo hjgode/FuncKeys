@@ -67,7 +67,7 @@ BOOL CFuncKeysDlg::OnInitDialog()
 	ModifyStyle(WS_SYSMENU, WS_MINIMIZEBOX); //remove sysmenu and add minimize
 	ModifyStyleEx(0x80000000L, 0); //remove OK button
 	ShowWindow(SW_SHOWMAXIMIZED);
-	MAX_KEYCOUNT = 10;
+	MAX_KEYCOUNT = 12;
 
 	TCHAR str[6];
 	for (int i=10; i<=60; i+=10){
@@ -235,4 +235,10 @@ void CFuncKeysDlg::OnCbnSelchangeCombo1()
 {
 	// TODO: Add your control notification handler code here
 
+}
+
+void CFuncKeysDlg::OnTcnSelchangeTab1(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	// TODO: Add your control notification handler code here
+	*pResult = 0;
 }

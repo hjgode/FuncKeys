@@ -10,7 +10,7 @@
 
 #define TH32CS_SNAPNOHEAPS 0x40000000
 
-const UINT MAX_KEYCOUNT = 10;
+const UINT MAX_KEYCOUNT = 12;
 
 /*$DOCBEGIN$
  =======================================================================================================================

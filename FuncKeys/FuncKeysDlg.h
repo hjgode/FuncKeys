@@ -50,6 +50,7 @@ public:
 	afx_msg void OnNMCustomdrawSlider1(NMHDR *pNMHDR, LRESULT *pResult);
 	CComboBox listTimout;
 	afx_msg void OnCbnSelchangeCombo1();
+	afx_msg void OnTcnSelchangeTab1(NMHDR *pNMHDR, LRESULT *pResult);
 };
 
 //{{AFX_INSERT_LOCATION}}
